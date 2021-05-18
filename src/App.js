@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+ 
+ 
+} from "react-router-dom";
 import './App.css';
+import ActivityPart from "./Components/Home/ActivityPart/ActivityPart";
+import Footer from "./Components/Home/Footer/Footer";
+import GetLink from "./Components/Home/GetLink/GetLink";
+import Header from "./Components/Home/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Router>
+        <Header></Header>
+        <ActivityPart></ActivityPart>
+        <GetLink></GetLink>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }

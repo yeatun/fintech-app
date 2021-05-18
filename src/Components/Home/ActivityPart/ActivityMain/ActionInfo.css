@@ -1,0 +1,17 @@
+.action-info-card{
+    padding:  5px;
+}
+
+.info-blue{
+    background-color: #525198;
+}
+.info-yellow{
+    background-color: #F1B31C;
+}
+.info-icon{
+    font-size: 2em;
+}
+.action-info-container{
+    height: 130px;
+    padding: 30px;
+}
