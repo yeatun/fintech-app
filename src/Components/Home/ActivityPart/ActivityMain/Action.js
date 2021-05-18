@@ -16,7 +16,7 @@ const infosData =[
     },
     {
         title : 'Top Up',
-        icon: faMoneyCheckAlt,
+        icon: faReceipt,
         background:'blue',
     },
     {
